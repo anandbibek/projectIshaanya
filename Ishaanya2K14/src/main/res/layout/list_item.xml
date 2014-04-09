@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp"
+              android:paddingTop="12dp"
+              android:paddingBottom="0dp">
+
+	<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/bg_card"
+			>
+
+		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/list_img"
+					android:layout_margin="12dp"/>
+
+			<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:id="@+id/text1"
+						android:layout_margin="12dp"
+						android:textStyle="bold"/>
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/text2"
+						android:layout_marginLeft="12dp"
+						android:layout_marginRight="12dp"
+						android:layout_marginBottom="12dp"
+						android:textStyle="italic"
+						android:textColor="#bbb"
+						android:layout_marginTop="-6dp"
+						android:textSize="14sp"
+						android:alpha="0.6"/>
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<View
+				android:layout_height="0.1dp"
+				android:layout_width="match_parent"
+		        android:background="#666"
+				/>
+
+		<com.anandbibek.ishaanya2k14.TextViewC
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/text3"
+				android:layout_margin="12dp"
+				android:textIsSelectable="true"
+				android:autoLink="email|map|web"/>
+
+	</LinearLayout>
+</LinearLayout>

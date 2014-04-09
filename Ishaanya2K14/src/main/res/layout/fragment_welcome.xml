@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000"
+			  android:scrollbars="none">
+
+	<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:autoLink="all"
+			android:gravity="fill_horizontal">
+
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="@drawable/bg_card"
+				android:layout_margin="12dp">
+
+			<ImageView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/imageView"
+				android:src="@drawable/text"
+				android:contentDescription="@string/ishaanya_logo"
+				android:paddingLeft="64dp"
+				android:paddingRight="64dp"
+				android:layout_marginLeft="12dp"
+				android:layout_marginTop="12dp"
+				android:layout_marginRight="12dp"
+				android:layout_gravity="center"/>
+
+			<View
+					android:layout_height="0.1dp"
+					android:layout_width="match_parent"
+					android:background="#666"
+					/>
+
+			<com.anandbibek.ishaanya2k14.TextViewC
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/welcome_note"
+				android:id="@+id/textView"
+				android:textSize="16sp"
+				android:padding="12dp"/>
+
+			<View
+					android:layout_height="0.1dp"
+					android:layout_width="match_parent"
+					android:background="#666"
+					/>
+
+			<com.anandbibek.ishaanya2k14.TextViewC
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="@string/event_time"
+					android:textSize="18sp"
+					android:padding="12dp"
+					android:autoText="true"/>
+		</LinearLayout>
+
+
+		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:onClick="openFb"
+				android:showDividers="middle"
+				android:background="@drawable/bg_card"
+				android:layout_marginBottom="6dp"
+				android:layout_marginRight="12dp"
+				android:gravity="center_vertical"
+				android:layout_marginLeft="12dp">
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/imageView2"
+					android:src="@drawable/fb"
+					android:paddingRight="12dp"
+					/>
+
+			<com.anandbibek.ishaanya2k14.TextViewC
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/fb_msg"
+					android:id="@+id/textView_"
+					/>
+		</LinearLayout>
+
+		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout"
+				android:onClick="openTwitter"
+				android:background="@drawable/bg_card"
+				android:layout_marginLeft="12dp"
+				android:layout_marginTop="6dp"
+				android:layout_marginRight="12dp"
+				android:gravity="center_vertical">
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/imageView3"
+					android:src="@drawable/twitter"
+					android:paddingRight="12dp"/>
+
+			<com.anandbibek.ishaanya2k14.TextViewC
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/twitter_msg"
+					android:id="@+id/textView__"
+					/>
+		</LinearLayout>
+
+		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_margin="12dp"
+				android:background="@drawable/bg_card"
+				android:gravity="center_vertical"
+				android:onClick="merchandise">
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/merchandise"
+					android:paddingRight="12dp"/>
+
+			<com.anandbibek.ishaanya2k14.TextViewC
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/merchandise_msg"
+					/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>

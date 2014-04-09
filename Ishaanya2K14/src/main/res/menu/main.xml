@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_example"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom" />
+	<item android:id="@+id/action_fb"
+	      android:title="@string/fb_msg"
+	      android:orderInCategory="100"
+	      app:showAsAction="never" />
+	<item android:id="@+id/action_twitter"
+	      android:title="@string/twitter_msg"
+	      android:orderInCategory="101"
+	      app:showAsAction="never" />
+	<item android:id="@+id/action_merchandise"
+	      android:title="@string/merchandise_msg"
+	      android:orderInCategory="102"
+	      app:showAsAction="never" />
+</menu>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000">
+
+		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+			<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/bg_card"
+					android:layout_margin="12dp">
+
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:text="Our College"
+						android:id="@+id/textView_a1"
+						android:padding="12dp"
+						android:textStyle="bold"/>
+
+				<View
+						android:layout_height="0.1dp"
+						android:layout_width="match_parent"
+						android:background="#666"
+						/>
+
+				<ImageView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/imageView"
+						android:src="@drawable/college"
+						android:cropToPadding="false"
+						/>
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/college_details"
+						android:id="@+id/textView_a2"
+						android:padding="12dp"
+						android:autoLink="all"
+						android:textSize="15sp"
+						android:textIsSelectable="true"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/bg_card"
+					android:layout_marginLeft="12dp"
+					android:layout_marginRight="12dp"
+					android:layout_marginBottom="6dp">
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:text="About this app"
+						android:id="@+id/textView_a3"
+						android:padding="12dp"
+						android:textStyle="bold"/>
+
+				<View
+						android:layout_height="0.1dp"
+						android:layout_width="match_parent"
+						android:background="#666"
+						/>
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="This app has been originally made for \'Ishaanya 2014\', the annual techfest of Tripura Institute of Technology
+						\n\nDeveloped by :
+						\nAnanda Bibek Ray
+						\nC.S.E. batch of 2011-15"
+						android:id="@+id/textView_a4"
+						android:padding="12dp"
+						android:autoText="false"
+						android:autoLink="all"
+						android:textSize="15sp"
+						android:textIsSelectable="true"/>
+
+			</LinearLayout>
+
+
+			<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/bg_card"
+					android:layout_marginLeft="12dp"
+					android:layout_marginTop="6dp"
+					android:layout_marginRight="12dp"
+					android:layout_marginBottom="12dp">
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:id="@+id/textView_a5"
+						android:text="Source code and license"
+						android:padding="12dp"
+						android:textStyle="bold"/>
+
+				<View
+						android:layout_height="0.1dp"
+						android:layout_width="match_parent"
+						android:background="#666"
+						/>
+
+				<com.anandbibek.ishaanya2k14.TextViewC
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="The full source code of this app has been made available on github.com/anandbibek/projectIshaanya under the impression that interested people will create apps for future versions of Ishaanya from this source code.
+						\n\nDetailed instructions are provided with source code on how to easily refactor this app for future year programs."
+						android:padding="12dp"
+						android:id="@+id/textView_a6"
+						android:autoLink="all"
+						android:textSize="15sp"
+						android:textIsSelectable="true"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>

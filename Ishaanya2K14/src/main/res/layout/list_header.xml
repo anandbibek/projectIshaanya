@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:onClick="open_reg">
+
+	<com.anandbibek.ishaanya2k14.TextViewC
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="@string/reg_msg"
+			android:id="@+id/textView"
+			android:padding="12dp"/>
+
+	<View
+			android:layout_height="0.1dp"
+			android:layout_width="match_parent"
+			android:background="#666"
+			/>
+
+	<com.anandbibek.ishaanya2k14.TextViewC
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="@string/reg_prompt"
+			android:padding="12dp"
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:onClick="open_reg"/>
+
+</LinearLayout>
